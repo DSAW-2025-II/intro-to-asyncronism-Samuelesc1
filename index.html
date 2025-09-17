@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pokedex</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>Pokedex</header>
+
+  <div class="search-bar">
+    <input type="text" id="searchInput" placeholder="Nombre o ID de Pokémon">
+    <button onclick="searchPokemon()">Buscar</button>
+  </div>
+
+
+  <div class="gameboy">
+    <div class="screen-container">
+      <h3 class="logo">GAME BOY</h3>
+      <div class="screen" id="pokemonContainer">
+        <p>Busca un Pokémon para verlo aquí</p>
+      </div>
+    </div>
+
+  
+    <div class="controls">
+      <div class="dpad">
+        <div class="up"></div>
+        <div class="right"></div>
+        <div class="down"></div>
+        <div class="left"></div>
+        <div class="center"></div>
+      </div>
+
+      <div class="buttons">
+        <div class="btn a">A</div>
+        <div class="btn b">B</div>
+      </div>
+    </div>
+
+    <div class="select-start">
+      <div class="small-btn">SELECT</div>
+      <div class="small-btn">START</div>
+    </div>
+
+    <div class="speaker">
+      <div></div><div></div><div></div><div></div><div></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
